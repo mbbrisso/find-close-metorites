@@ -29,3 +29,5 @@ for meteor in meteor_data:
         float(meteor['reclong']), myLoc[0], myLoc[1])
 
 meteor_data.sort(key=get_dist)
+
+print (meteor_data[0:10])
